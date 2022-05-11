@@ -1,0 +1,4 @@
+rootProject.name = 'JUnit-tests'
+include 'tests-junit'
+include 'tests-testng'
+include 'model'

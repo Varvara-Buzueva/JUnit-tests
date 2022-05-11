@@ -1,0 +1,10 @@
+.gradle
+.idea
+build
+tests-junit/build
+tests-junit/out
+tests-testng/build
+tests-testng/out
+model/build
+model/out
+

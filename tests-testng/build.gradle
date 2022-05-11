@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.otus'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs '../model/build/libs'
+    }
+}
+
+dependencies {
+    testImplementation group: 'org.testng', name: 'testng', version: '7.5';
+    testImplementation group: 'ru.otus', name: 'model', version: '1.0-SNAPSHOT';
+}
+
+test {
+    useJUnitPlatform()
+}
